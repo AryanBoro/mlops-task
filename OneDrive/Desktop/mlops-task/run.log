@@ -1,0 +1,8 @@
+2026-02-20T01:13:26 | INFO | Job start — input=data.csv  config=config.yaml  output=metrics.json
+2026-02-20T01:13:26 | INFO | Config loaded — window=3  seed=42
+2026-02-20T01:13:26 | INFO | Random seed set to 42
+2026-02-20T01:13:26 | INFO | Rows loaded: 10
+2026-02-20T01:13:26 | INFO | Rolling mean calculated — window=3
+2026-02-20T01:13:26 | INFO | Signals generated — signal_rate=0.6000
+2026-02-20T01:13:26 | INFO | Metrics summary — rows=10  signal_rate=0.6000  latency_ms=100
+2026-02-20T01:13:26 | INFO | Job complete — metrics written to metrics.json

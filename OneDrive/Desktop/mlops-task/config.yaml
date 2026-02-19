@@ -1,0 +1,7 @@
+version: "v1"
+
+# Rolling window size (number of periods)
+window: 3
+
+# Random seed for reproducibility
+seed: 42
