@@ -1,0 +1,16 @@
+2026-02-23T15:00:38 | INFO     | ============================================================
+2026-02-23T15:00:38 | INFO     | MLOps Batch Job starting.
+2026-02-23T15:00:38 | INFO     | Arguments: input=data.csv | config=config.yaml | output=metrics.json | log=run.log
+2026-02-23T15:00:38 | INFO     | Loading configuration from 'config.yaml'
+2026-02-23T15:00:38 | INFO     | Config loaded — version=1.0.0 | seed=42 | window=20
+2026-02-23T15:00:38 | DEBUG    | Full config: {'seed': 42, 'window': 20, 'version': '1.0.0'}
+2026-02-23T15:00:38 | INFO     | Loading data from 'data.csv'
+2026-02-23T15:00:38 | INFO     | Data loaded — 10000 rows, 6 columns. Columns: ['date', 'open', 'high', 'low', 'close', 'volume']
+2026-02-23T15:00:38 | INFO     | Setting numpy random seed to 42 for reproducibility.
+2026-02-23T15:00:38 | INFO     | Computing rolling mean with window=20.
+2026-02-23T15:00:38 | INFO     | Computing binary signal (1 if close > rolling_mean, else 0).
+2026-02-23T15:00:38 | DEBUG    | 19 warmup row(s) have NaN rolling_mean (window size); signal defaulted to 0.
+2026-02-23T15:00:38 | INFO     | Processing complete — rows=10000 | signal_rate=0.496700
+2026-02-23T15:00:38 | INFO     | Metrics written to 'metrics.json'.
+2026-02-23T15:00:38 | INFO     | Job finished successfully in 99.430 ms.
+2026-02-23T15:00:38 | INFO     | ============================================================

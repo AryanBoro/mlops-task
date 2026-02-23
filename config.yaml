@@ -1,0 +1,9 @@
+# MLOps Batch Job Configuration
+# ---------------------------------
+# seed    : integer — NumPy random seed for full reproducibility
+# window  : integer — rolling mean window size (number of rows)
+# version : string  — job/model version tag written to metrics.json
+
+seed: 42
+window: 20
+version: "1.0.0"
